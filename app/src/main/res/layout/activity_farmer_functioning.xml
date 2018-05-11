@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_farmer_functioning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/last"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="farmindia.bmpl.com.farmindia.FarmerFunctioningActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/sellcrop_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:background="#A3A30E"
+            android:text="@string/sell"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <Button
+        android:id="@+id/checkret_btn"
+        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A3A30E"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFF"
+
+        android:text="@string/chkretailer"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button
+        android:id="@+id/chkcold_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A3A30E"
+        android:text="@string/storage"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <Button
+        android:id="@+id/stk_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+
+        android:background="#A3A30E"
+        android:text="My Posts" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+        android:id="@+id/cntrtfrm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Contract Farming"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+            android:background="#A3A30E"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button
+        android:id="@+id/discroom_btn"
+        android:background="#A3A30E"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+
+        android:text="Discussion Room"
+         />
+    </LinearLayout>
+</LinearLayout>

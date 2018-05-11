@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/last"
+    android:layout_height="match_parent"
+    tools:context="farmindia.bmpl.com.farmindia.FPIFunctioningActivity">
+
+
+    <Button
+        android:id="@+id/crp_adv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="94dp"
+        android:text="@string/farmercrops" />
+
+    <Button
+        android:id="@+id/cld_storage_fpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/buttonshapealternate"
+        android:text="@string/cldstorage"
+        android:layout_below="@+id/crp_adv"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/cntrctpost_btn"
+        android:background="@drawable/buttonshape"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cld_storage_fpi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Contract Post" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/last"
+    tools:context="farmindia.bmpl.com.farmindia.ApplyContractActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Quantity You Can Undertake"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/edit_text_apply_for_contract"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="APPLY"
+        android:background="#A3A30E"
+        android:id="@+id/applyButton"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="these are the guidelines you should read before applying for the contract"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingLeft="30dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:paddingRight="20dp"
+            android:text="Farmers and buyers shouldhave a common purpose whenengaging in contract farming.
+The arrangements should bebased on the principle that thecontract will protect the partiesfrom risks that may occurduring the fulfilment of duties
+and facilitate the execution of contractual obligations. The aim is that the agreement should promote agricultural production and guarantee a secure market for the commodity, thereby allowing farmers to earn increased revenue and buyers to obtain a return on their investments (the so-called win-win situation).Adherence to a legal
+framework To regulate their agreements, farmers and buyers should agree to enter into a contract. To be valid, contracts must comply with a number of essential requirements: parties must have the legal capacity
+to contract and provide free and informed consent. In cases where a group/association
+enters into a contract, it must be made clear whether responsibility lies with the
+individual member or with the group. This will depend on the
+type of association chosen for the group and on the national
+legislation in force. Contracts should be concluded by the acceptance of
+an offer that one party (e.g. the buyer) makes to the other (e.g. the farmer). Contracts should
+clearly specify the parties’ responsibilities. In addition, contracts must be based on an
+“object” (i.e. the good or service that constitutes the obligation of farmer and buyer) such as the sale of a designated crop by thefarmer and the payment by the
+buyer. Finally, the contract must be based on the detailing of thefarmer’s and the buyer’s duties and responsibilities (the so-called
+“cause” or “consideration”
+in legal terminology), wh"/>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/last"
+    tools:context="farmindia.bmpl.com.farmindia.AddContractActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/cropName"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/add_contract_crop_name"
+        android:paddingLeft="20dp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/cropVariety"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/add_contract_crop_variety"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Price"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/add_contract_price"
+            android:paddingLeft="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:hint="cropQuantity"
+        android:textStyle="bold"
+        android:id="@+id/add_contract_crop_quantity"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="link to the contract"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/add_contract_link_to_contract"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:hint="Duration of Contract"
+        android:textStyle="bold"
+        android:id="@+id/add_contract_duration"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/add_contract_post_button"
+        android:text="POST"/>
+</LinearLayout>

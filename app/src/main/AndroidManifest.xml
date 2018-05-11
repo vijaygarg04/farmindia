@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="farmindia.bmpl.com.farmindia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/farmindia"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/generalnotitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FarmerFunctioningActivity" />
+        <activity android:name=".SellActivity" />
+        <activity android:name=".ChkRetailerActivity" />
+        <activity android:name=".CldStorageActivity" />
+        <activity android:name=".SoldCropActivity" />
+        <activity android:name=".RetailerFunctioningActivity" />
+        <activity android:name=".FPIFunctioningActivity" />
+        <activity android:name=".CheckFarmerActivity" />
+        <activity android:name=".ViewCropsActivity" />
+        <activity android:name=".CldStrgFPIActivity" />
+        <activity android:name=".CrpAdvActivity" />
+        <activity android:name=".MapsActivityCheckRetailer" />
+        <activity android:name=".MapsActivityCheckColdStorage" />
+        <activity android:name=".MapsActivityCheckFarmer" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ContractFarmingActivity" />
+        <activity android:name=".ContractPostActivity" />
+        <activity android:name=".AddContractActivity" />
+        <activity android:name=".BuyFarmerCrops" />
+        <activity android:name=".MediatorActivity" />
+        <activity android:name=".ApplyContractActivity" />
+        <activity android:name=".GovtActivity" />
+        <activity android:name=".GraphActivity" />
+        <activity android:name=".PayFarmer"></activity>
+    </application>
+
+</manifest>

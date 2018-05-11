@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "615301989938",
+    "firebase_url": "https://farmindia-3e039.firebaseio.com",
+    "project_id": "farmindia-3e039",
+    "storage_bucket": "farmindia-3e039.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615301989938:android:715754cf077b73d2",
+        "android_client_info": {
+          "package_name": "farmindia.bmpl.com.farmindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615301989938-l835oupcj731fhksk3f0kb2vsrcdtlgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "farmindia.bmpl.com.farmindia",
+            "certificate_hash": "8c42e4ea8078f9191a5ae47845b3d6057c2784fc"
+          }
+        },
+        {
+          "client_id": "615301989938-1tv20cpiqibo20dn3vjbikfqq6j2tpb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjXry6cOwMAofczWQiJQBHfIBoiJLCfAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615301989938-1tv20cpiqibo20dn3vjbikfqq6j2tpb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
